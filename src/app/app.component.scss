@@ -1,0 +1,23 @@
+.main{
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "menu menu menu" "gameObject game component";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2rem auto;
+}
+.menu {
+  grid-area: menu;
+  background: #333;
+}
+.game {
+  grid-area: game;
+  background: #ccc;
+}
+.gameObject{
+  grid-area: gameObject;
+  background: #999;
+}
+.component{
+  grid-area: component;
+  background: #666;
+}
